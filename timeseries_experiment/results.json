@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-11T21:02:23.514824+00:00",
+  "config": {
+    "series_count": 1000,
+    "points_per_series": 1440,
+    "step_seconds": 10
+  },
+  "storage": {
+    "naive": {
+      "name": "ts_exp.naive_readings",
+      "rows": 2879642,
+      "table_bytes": 383844352,
+      "index_bytes": 338722816,
+      "total_bytes": 722690048,
+      "bytes_per_row": 250.96524081812947
+    },
+    "normalized": {
+      "name": "ts_exp.normalized_total",
+      "rows": 2880000,
+      "table_bytes": 196853760,
+      "index_bytes": 222126080,
+      "total_bytes": 419086336,
+      "bytes_per_row": 145.5160888888889
+    },
+    "normalized_breakdown": {
+      "readings": {
+        "name": "ts_exp.normalized_readings",
+        "rows": 2880000,
+        "table_bytes": 196673536,
+        "index_bytes": 221872128,
+        "total_bytes": 418619392,
+        "bytes_per_row": 145.35395555555556
+      },
+      "series_metadata": {
+        "name": "ts_exp.series_dim",
+        "rows": 1000,
+        "table_bytes": 180224,
+        "index_bytes": 253952,
+        "total_bytes": 466944,
+        "bytes_per_row": 466.944
+      }
+    }
+  }
+}
